@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+.libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+}
