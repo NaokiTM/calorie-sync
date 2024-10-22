@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { GeistSans } from 'geist/font/sans';
+import { Libre_Baskerville } from '@next/font/google';
 import "./globals.css";
 
 export const metadata: Metadata = {
