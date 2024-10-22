@@ -1,8 +1,11 @@
+import Hero from '@/app/components/Hero'
+import Navbar from '@/app/components/Navbar'
+
 export default function Home() {
   return (
     <>
-      <h1>CalorieSync</h1>
-      <h2>track calories, workout, and nutrients using graphical tools</h2>
+      <Navbar />
+      <Hero />
     </>
   );
 }
