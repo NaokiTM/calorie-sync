@@ -12,9 +12,13 @@ export default function ThemeWrapper({children, }: Readonly<{ children: React.Re
   };
 
   return (
-    <div className={isDarkMode ? "bg-black text-white" : "bg-white text-black"}>
-        {children}
-        <button className='p-4 flex justify-end' onClick={toggleDarkMode}><FaRegMoon className='h-[25px] w-[25px]'/></button>
-    </div>
+    <>
+        <div className={isDarkMode ? "bg-black text-white" : "bg-white text-black"}>
+            {children}
+            <div className='w-100 bg-red-400 flex justify-end sticky bottom-0 bg-opacity-0'> 
+                <button className='p-4 bg-red-500 bg-opacity-0' onClick={toggleDarkMode}><FaRegMoon className='h-[25px] w-[25px]'/></button>
+            </div>
+        </div>
+    </>
   )
 }

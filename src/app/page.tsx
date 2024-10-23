@@ -10,8 +10,10 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Hero />
+      <div className='h-[100vh]'>
+        <Navbar />
+        <Hero />
+      </div>
     </>
   );
 }
