@@ -39,9 +39,20 @@
 .remaining {
     font-size: 20px;
 }
-
+.circleContainer {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
 circle {
     fill: none;
     stroke: url(#GradientColor);
     stroke-width: 40px;
+    stroke-dasharray: 400; 
+    stroke-dashoffset: 0;
+}
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
 }

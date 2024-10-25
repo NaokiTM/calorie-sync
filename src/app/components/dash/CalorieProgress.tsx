@@ -8,6 +8,7 @@ export default function CalorieProgress() {
 
   return (
     <>
+    <div className='circleContainer'>
       <div className='outerCircle'>
         <div className='innerCircle'>
           <div className='calories'>{calories}</div>
@@ -24,6 +25,7 @@ export default function CalorieProgress() {
          </defs>
          <circle cx="150" cy="150" r="130" strokeLinecap="round" />
       </svg>
+    </div>
     </>
   )
 }
