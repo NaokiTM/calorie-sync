@@ -39,3 +39,9 @@
 .remaining {
     font-size: 20px;
 }
+
+circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 40px;
+}

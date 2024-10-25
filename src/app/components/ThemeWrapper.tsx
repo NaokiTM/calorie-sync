@@ -5,7 +5,7 @@ import { FaRegMoon } from "react-icons/fa";
 
 
 export default function ThemeWrapper({children, }: Readonly<{ children: React.ReactNode; }>) {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
     setIsDarkMode((prevMode) => !prevMode);  //prevmode ideal to correctly keep track of asynchronous state toggling 

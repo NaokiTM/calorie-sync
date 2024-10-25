@@ -22,7 +22,7 @@ export default function CalorieProgress() {
                <stop offset="100%" stopColor="#673ab7" />
             </linearGradient>
          </defs>
-         <circle cx="80" cy="80" r="70" strokeLinecap="round" />
+         <circle cx="150" cy="150" r="130" strokeLinecap="round" />
       </svg>
     </>
   )
